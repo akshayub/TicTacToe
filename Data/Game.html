@@ -1,0 +1,84 @@
+<html>
+  <head>
+    <title> Game </title>
+    <script name="text/javascript" src='game.js'>
+
+    </script>
+  </head>
+  
+  <body bgcolor=BLACK><center>
+    <h2>
+	<font size=10 color=Orange style="font-family:Viner Hand ITC">
+	
+	TIC TAC TOE
+	
+	</font>
+	</h2>
+	<a href=""><font size=5>Play Again</font></a>
+	<br/>
+	<a href="Gamerule.html" ><font size=5>
+		Show me the rules once more
+	</font></a>
+	<br/>
+	<a href="../Tic-Tac-Toe.html" ><font size=5>
+		Back to Home page
+	</font></a>
+	
+	<p id="turn" ><font color=White size=5><B>Player 1 to play</B></font></p>
+	<table border=0 cellspacing=10 cellpadding=10>
+		<tr><td valign=top>
+		<img align=left border=5 width=100 height=100 src="P1.jpg"/>
+		<p style="font-family:Times New Roman" align=left>
+			<font color=YELLOW><b>
+		Player I	
+			</font></b>
+		</p>
+		</td>
+		<td>
+    <table cellpadding=10 cellspacing=10 border=1>
+      <tr>
+        <td onclick="play(this)" id="00">
+          <img width=100 height=100 border=0 src="blank.png"/>
+        </td>
+        <td onclick="play(this)" id="01">
+          <img width=100 height=100 border=0 src="blank.png"/>
+        </td>
+        <td onclick="play(this)" id="02">
+          <img width=100 height=100 border=0 src="blank.png"/>
+        </td>
+      </tr>
+      <tr>
+        <td onclick="play(this)" id="10">
+          <img width=100 height=100 border=0 src="blank.png"/>
+        </td>
+        <td onclick="play(this)" id="11">
+          <img width=100 height=100 border=0 src="blank.png"/>
+        </td>
+        <td onclick="play(this)" id="12">
+          <img width=100 height=100 border=0 src="blank.png"/>
+        </td>
+      </tr>
+      <tr>
+        <td onclick="play(this)" id="20">
+          <img width=100 height=100 border=0 src="blank.png"/>
+        </td>
+        <td onclick="play(this)" id="21">
+          <img width=100 height=100 border=0 src="blank.png"/>
+        </td>
+        <td onclick="play(this)" id="22">
+          <img width=100 height=100 border=0 src="blank.png"/>
+        </td>
+      </tr>
+    </table>
+	 </td>
+	 <td valign=top>
+	 <img align=right border=5  width=100 height=100 src="P2.jpg"/>
+		<p style="font-family:Times New Roman" align=right><B>
+			<font color=YELLOW>
+		Player II
+			</font></b>
+		</p>
+	</td></tr>
+	</table>
+  </body>
+</html>
